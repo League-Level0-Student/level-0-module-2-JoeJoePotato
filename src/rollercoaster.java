@@ -7,5 +7,6 @@ int num = Integer.parseInt(height);
 if(num >48) {	
 JOptionPane.showMessageDialog(null, "You are tall enoiugh to ride the rollercoaster. Have fun!");}	
 else {
+	JOptionPane.showMessageDialog(null, "Sorry, you are not tall enough to ride the rollercoaster.");
 }
 }}
